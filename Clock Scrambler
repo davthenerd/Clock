@@ -1,0 +1,15 @@
+
+
+
+
+  # Constants
+  Moves = [UR UL DR DL U R D L] #Uppercase moves
+  Opposites = [ur ul dr dl U R D L] # Lowercase Moves
+
+  Def Mains(args)
+    Prevmove1 = PrevMove2 = ""
+    if args.v:
+      warningBuffer = []
+    n = args.1
+
+    for _ in range(n)
